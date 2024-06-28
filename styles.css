@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(182, 176, 164);
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.recipe-list {
+    text-align: center;
+    list-style: none;
+}
+
+.ingredients {
+    color: midnightblue
+}
