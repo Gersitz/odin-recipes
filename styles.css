@@ -1,17 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(182, 176, 164);
     font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.page-title {
+.page-content {
+    margin: 2rem 5rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 16px;
+    background-color: aliceblue;
     text-align: center;
+}
+
+.card {
+    width: 300px;
+}
+
+.recipe-card,
+.ingredients-card,
+.steps-card {
+    width: 800px;
+}
+
+.card,
+.recipe-card,
+.ingredients-card,
+.steps-card {
+    background-color: cornsilk;
+    padding: 16px;
+    border: 1px gray solid;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 260px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 24px;
+    color: grey
 }
 
 .recipe-list {
-    text-align: center;
     list-style: none;
-}
-
-.ingredients {
-    color: midnightblue
 }
